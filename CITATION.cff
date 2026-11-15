@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Depiction Style Centring (DSC)"
+type: software
+license: MIT
+repository-code: "https://github.com/zitansmail/depiction-style-centring"
+authors:
+  - family-names: Zitane
+    given-names: Smail
+  - family-names: Zeroual
+    given-names: Imad
+  - family-names: Agoujil
+    given-names: Said
+preferred-citation:
+  type: article
+  title: "Depiction Style Centring: Training-Free Reduction of Depiction Bias in Frozen Vision Embeddings for Image Retrieval"
+  authors:
+    - family-names: Zitane
+      given-names: Smail
+    - family-names: Zeroual
+      given-names: Imad
+    - family-names: Agoujil
+      given-names: Said
+  status: submitted

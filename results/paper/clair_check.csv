@@ -1,0 +1,23 @@
+part,item,variant,value_1,value_2,value_3
+# source: DSC_Paper.ipynb section 20 output of the 2026-11-02 run (printed tables, copied unchanged); columns text: cos before, after x Omega^T (used), after x Omega (inverse), ||Omega - I||_F ; images: cos to the photo mean of its class, nearest photo class correct (%), cos(image, mapped image)
+text,sketch,,0.902,0.984,0.745
+text,pencil drawing,,0.850,0.981,0.633
+text,line drawing,,0.871,0.983,0.667
+text,doodle,,0.872,0.981,0.681
+text,painting,,0.902,0.982,0.747
+text,watercolor painting,,0.833,0.978,0.593
+text,oil painting,,0.862,0.977,0.674
+text,clipart,,0.888,0.983,0.733
+text,cartoon,,0.912,0.985,0.773
+text,infographic,,0.912,0.984,0.770
+text,product photo on a white background,,0.900,0.976,0.774
+text,3D render,,0.898,0.981,0.746
+image,sketch,raw,0.754,94.630,1.000
+image,sketch,used,0.560,95.775,0.761
+image,sketch,inverse,0.569,91.830,0.761
+image,cartoon,raw,0.724,97.611,1.000
+image,cartoon,used,0.519,95.776,0.756
+image,cartoon,inverse,0.525,95.350,0.756
+image,art_painting,raw,0.691,91.797,1.000
+image,art_painting,used,0.518,92.822,0.771
+image,art_painting,inverse,0.506,87.891,0.771

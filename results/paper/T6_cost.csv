@@ -1,0 +1,5 @@
+étape,temps,unité
+"SigLIP 2, image embedding (needed for the groups when the descriptor is not SigLIP 2)",4.877,ms / image
+M2 groups for the whole collection (text encoding included),0.129,s / 15588 images
+Per-group centring of the collection,0.063,s / 15588 images
+"Search, top-10, per query (same cost raw or DSC)",6.199,µs / query

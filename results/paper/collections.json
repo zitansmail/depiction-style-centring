@@ -1,0 +1,12 @@
+{
+ "_source": "n_images, n_classes, largest_group_share, S1_on copied from MyDrive/hymam_cbir_results/dsc_paper/main_<name>.json (DSC_Paper.ipynb full run, 2026-11-01); n_styles from the style labels (PACS, Office-Home, DomainNet: dataset domains; ImageNet-R: renditions in T5_renditions_DINOv2.csv); domainnet7 from the T4 cell output (16544 images, classes printed).",
+ "pacs":       {"name": "PACS",        "n_images": 9991,  "n_classes": 7,   "n_styles": 4,  "largest_group_share": 0.36,  "S1_on": true,  "role": "mixed"},
+ "officehome": {"name": "Office-Home", "n_images": 15588, "n_classes": 65,  "n_styles": 4,  "largest_group_share": 0.331, "S1_on": true,  "role": "mixed"},
+ "domainnet":  {"name": "DomainNet",   "n_images": 12357, "n_classes": 345, "n_styles": 6,  "largest_group_share": 0.207, "S1_on": true,  "role": "mixed"},
+ "imagenetr":  {"name": "ImageNet-R",  "n_images": 30000, "n_classes": 200, "n_styles": 15, "largest_group_share": 0.263, "S1_on": true,  "role": "mixed, held out"},
+ "corel1k":    {"name": "Corel-1K",    "n_images": 1000,  "n_classes": 10,  "n_styles": 1,  "largest_group_share": 0.953, "S1_on": false, "role": "single"},
+ "corel10k":   {"name": "Corel-10K",   "n_images": 10000, "n_classes": 100, "n_styles": 1,  "largest_group_share": 0.816, "S1_on": false, "role": "single"},
+ "caltech101": {"name": "Caltech-101", "n_images": 8677,  "n_classes": 101, "n_styles": 1,  "largest_group_share": 0.842, "S1_on": false, "role": "single"},
+ "caltech256": {"name": "Caltech-256", "n_images": 29780, "n_classes": 256, "n_styles": 1,  "largest_group_share": 0.804, "S1_on": false, "role": "single, held out"},
+ "domainnet7": {"name": "DomainNet (7 classes)", "n_images": 16544, "n_classes": 7, "n_styles": 6, "classes": ["bird", "feather", "teapot", "tiger", "whale", "windmill", "zebra"], "split": "train + test", "rule": "> 200 images in every domain"}
+}

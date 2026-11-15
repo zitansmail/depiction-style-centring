@@ -1,0 +1,4 @@
+query_index,depiction,class,ap_raw,ap_dsc,ap_gain,n_cross_relevant,pool,pool_size,median_gain
+# source: standalone Colab cells of 2026-11-02 (same code as DSC_Paper.ipynb section 21): printed line "median AP gain 28.08 over 6792 art/clip-art queries; chosen: ..." and the AP values / relevant counts printed in the titles of dsc_fig_typical_ranks.png (SigLIP 2, Office-Home)
+5400,Clipart,Computer,20.0,48.1,28.07,204,Art+Clipart,6792,28.08
+1430,Art,Couch,18.8,46.9,28.08,228,Art+Clipart,6792,28.08

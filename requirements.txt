@@ -1,0 +1,16 @@
+torch>=2.2
+torchvision>=0.17
+timm>=1.0
+transformers>=4.49
+datasets>=3.0
+numpy
+pandas
+scikit-learn
+matplotlib
+tqdm
+pillow
+sentencepiece
+protobuf
+nltk
+wordfreq
+pytest

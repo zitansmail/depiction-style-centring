@@ -1,0 +1,8 @@
+cache/
+data/
+__pycache__/
+*.pyc
+results/*.csv
+results/*.png
+!results/paper/
+.pytest_cache/
